@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: katherina.galustyan.testtask.irens.palindrome.TaskResultTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in katherina.galustyan.testtask.irens.palindrome.TaskResultTest

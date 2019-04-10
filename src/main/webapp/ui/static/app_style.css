@@ -1,0 +1,12 @@
+.btn, .btn-outline-secondary, .rounded{
+    border-radius:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#btnSendQuery, #btnOK{
+    width: 100px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+}

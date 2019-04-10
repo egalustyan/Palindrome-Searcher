@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <definition name="palindrome_searcher" template="/ui/view/layout/main.jsp">
+        <put-attribute name="header" value="/ui/view/attr/header.jsp" />
+        <put-attribute name="left" value="/ui/view/attr/add_new_task.jsp" />
+        <put-attribute name="right" value="/ui/view/attr/task_history.jsp" />
+    </definition>
+
+    <!--definition name="dashboard" extends="mainLayout">
+        <put-attribute name="body" value="/ui/jsp/view/dashboard.jsp" />
+    </definition-->
+
+</tiles-definitions>
