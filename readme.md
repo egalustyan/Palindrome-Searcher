@@ -1,4 +1,4 @@
-h1 Palindrome Searcher
+Palindrome Searcher
 =========================
 **"Palindrome Searcher"** is  a web-application, which can calculate closest palindromes of inputted number.
 You can read about palindrome on the following pages:
@@ -19,20 +19,20 @@ You can read about palindrome on the following pages:
 8. User can on regularly update for history by checking corresponding checkbox
 9. If the user leaves the page (close), all calculations will be closed, when session will be expired
 
-h2 Getting Started
+Getting Started
 --------------------
-### h3 Prerequisites
+### Prerequisites
 * Git
 * JDK 8 or later
 * Maven 3.0 or later
 
-### h3 Clone
+### Clone
 At first, you can simply clone this repository using git:
 
     git clone https://github.com/egalustyan/irens.palindrome.git
     cd irens.palindrome
 
-### h3 Build and Run in IDE Intellij Idea
+### Build and Run in IDE Intellij Idea
 
 To do this you need to execute the main method in the `katherina.galustyan.testtask.irens.palindrome.Application`
 class from your IDE:
@@ -40,8 +40,8 @@ class from your IDE:
 * Choose the Spring Boot Application file (search for @SpringBootApplication)
 * Right Click on the file and Run as Java Application
 
-### h3 Package into *.war file
-#### h4 From Intellij Idea
+### Package into *.war file
+#### From Intellij Idea
 
 To create war-file you need to do the following actions:
 
@@ -52,7 +52,7 @@ To create war-file you need to do the following actions:
 5. After packaging, in "target" folder you will see required file like following:
     irens.palindrome-0.0.1-SNAPSHOT.war
 
-#### h4 From command line
+#### From command line
 
 To create war-file you need to do the following actions:
 
@@ -64,8 +64,8 @@ To create war-file you need to do the following actions:
 5. After packaging, in "target" folder you will see required file like following:
     irens.palindrome-0.0.1-SNAPSHOT.war
 
-### h3 Run *.war file
-#### h4 From command line:
+### Run *.war file
+#### From command line:
 In console do the following:
 
 1. Go to folder, where is the application war-file
@@ -75,13 +75,13 @@ In console do the following:
 3. Go to some browser and open page by following link:
     http://localhost:8080/
 
-#### h4 From installed web-server
+#### From installed web-server
 
 Deploy war-file to web-container by container instruction for deploying and then
 go to some browser and open page by following link:
     http://localhost:8080/
 
-h2 About application code source
+About application code source
 ---------------------------------
 
     src/ contains the actual Java application
